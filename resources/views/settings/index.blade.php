@@ -157,7 +157,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+        <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
               <h5>
@@ -170,7 +170,7 @@
               <p class="help-block">{{ trans('admin/settings/general.webhook_help') }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
@@ -218,7 +218,7 @@
         </div>
 
 
-        <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+        <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
               <h5>
@@ -231,9 +231,9 @@
               <p class="help-block">{{ trans('admin/settings/general.ldap_help') }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-      <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+      <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
         <div class="admin box box-default">
           <div class="box-body text-center">
             <h5>
@@ -246,9 +246,9 @@
             <p class="help-block">{{ trans('admin/settings/general.google_login') }}</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+      <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
         <div class="admin box box-default">
           <div class="box-body text-center">
             <h5>
@@ -261,9 +261,9 @@
             <p class="help-block">{{ trans('admin/settings/general.saml_help') }}</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-        <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+        <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
               <h5>
@@ -276,7 +276,7 @@
               <p class="help-block">{!! trans('admin/settings/general.backups_help') !!}</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
       <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
@@ -294,7 +294,7 @@
         </div>
       </div>
 
-        <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+       <!--  <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
               <h5>
@@ -307,7 +307,7 @@
               <p class="help-block">{{  trans('admin/settings/general.oauth_help') }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         @if (config('app.debug')=== true)
           <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
@@ -328,7 +328,7 @@
         @endif
 
 
-    <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
+    <!-- <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
       <div class="admin box box-danger">
         <div class="box-body text-center">
           <h5>
@@ -342,7 +342,7 @@
           <p class="help-block">{{ trans('admin/settings/general.purge_help') }}</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
